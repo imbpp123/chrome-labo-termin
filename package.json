@@ -1,0 +1,19 @@
+{
+    "scripts": {
+        "lint": "npx eslint src/**/*.js test/**/*.js",
+        "test": "karma start --single-run --browsers ChromeHeadless karma.conf.js"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "eslint": "^7.17.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-plugin-import": "^2.22.1",
+        "karma": "^5.2.3",
+        "karma-chai": "^0.1.0",
+        "karma-chrome-launcher": "^3.1.0",
+        "karma-mocha": "^2.0.1",
+        "karma-sinon": "^1.0.5",
+        "mocha": "^8.2.1",
+        "sinon": "^9.2.2"
+    }
+}
